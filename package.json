@@ -1,7 +1,11 @@
 {
   "name": "nextjs-starter",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "Next.js starter by Frad.",
+  "repository": "https://github.com/FradSer/nextjs-starter",
+  "author": "Frad LEE <fradser@gmail.com>",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
