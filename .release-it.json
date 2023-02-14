@@ -1,0 +1,22 @@
+{
+  "git": {
+    "commitMessage": "chore(yarn): bump to v${version}",
+    "tagName": "v${version}"
+  },
+  "github": {
+    "release": false
+  },
+  "npm": {
+    "publish": false
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "header": "# Changelog",
+      "ignoreRecommendedBump": true,
+      "preset": {
+        "name": "conventionalcommits"
+      }
+    }
+  }
+}
