@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.2.1](https://github.com/FradSer/nextjs-starter/compare/v0.2.0...v0.2.1) (2023-04-18)
+
+
+### Features
+
+* **app:** use latest next.js example ([c032849](https://github.com/FradSer/nextjs-starter/commit/c0328495dcedaf932db512563f40fba087a3d919))
+
+
+### Bug Fixes
+
+* **app:** remove unnecessary files and folders ([0820452](https://github.com/FradSer/nextjs-starter/commit/08204526dec6e9f9738baf3d74104510e30da86b))
+
 ## [0.2.0](https://github.com/FradSer/nextjs-starter/compare/v0.1.1...v0.2.0) (2023-04-18)
 
 
