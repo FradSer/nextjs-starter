@@ -27,7 +27,7 @@ const List = ({ items, depth }: { items: Item[]; depth: number }) => {
                     // │
                     'before:absolute before:-left-2.5 before:top-0 before:border-l-2 before:border-zinc-800',
                     // ──
-                    'after:absolute after:top-[17px] after:-left-2.5 after:h-3 after:w-2.5 after:border-t-2 after:border-zinc-800',
+                    'after:absolute after:-left-2.5 after:top-[17px] after:h-3 after:w-2.5 after:border-t-2 after:border-zinc-800',
                     {
                       // ├─
                       'before:h-full': !isLast,
