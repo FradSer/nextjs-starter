@@ -53,14 +53,14 @@ export async function fetchCategories(): Promise<Category[]> {
 
 async function findSubCategory(
   category: Category | undefined,
-  subCategorySlug: string | undefined
+  subCategorySlug: string | undefined,
 ) {
   return category?.items.find((category) => category.slug === subCategorySlug)
 }
 
 export async function fetchSubCategory(
   categorySlug: string | undefined,
-  subCategorySlug: string | undefined
+  subCategorySlug: string | undefined,
 ) {
   const category = await fetchCategoryBySlug(categorySlug)
   return findSubCategory(category, subCategorySlug)

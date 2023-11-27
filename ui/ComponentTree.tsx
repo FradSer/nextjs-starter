@@ -33,7 +33,7 @@ const List = ({ items, depth }: { items: Item[]; depth: number }) => {
                       'before:h-full': !isLast,
                       // └─
                       'before:h-[17px]': isLast,
-                    }
+                    },
                   )
             }
           >
@@ -44,7 +44,7 @@ const List = ({ items, depth }: { items: Item[]; depth: number }) => {
                   {
                     'bg-vercel-blue text-blue-100': item.type === 'client',
                     'bg-zinc-700 text-zinc-200': item.type === 'server',
-                  }
+                  },
                 )}
               >
                 <span className="text-white/40">{'<'}</span>
@@ -58,7 +58,7 @@ const List = ({ items, depth }: { items: Item[]; depth: number }) => {
                   {
                     'animate-[fadeToTransparent_1s_ease-in-out_forwards_1]':
                       item.type === 'server',
-                  }
+                  },
                 )}
               >
                 <span className="tabular-nums">
@@ -93,14 +93,14 @@ const sum = (items: Item[], componentType: Item['type']): number =>
       ((item.type === componentType ? item.size : 0) || 0) +
       // add the total size of children components recursively
       (item?.children ? sum(item.children, componentType) : 0),
-    0
+    0,
   )
 
 export const ComponentTree = ({ items }: { items: Item[] }) => {
   const clientTotal = sum(items, 'client')
   const serverTotal = sum(items, 'server')
   const clientDeltaAsPercent = Math.round(
-    (clientTotal / (clientTotal + serverTotal)) * 100
+    (clientTotal / (clientTotal + serverTotal)) * 100,
   )
 
   return (
@@ -127,7 +127,7 @@ export const ComponentTree = ({ items }: { items: Item[] }) => {
               <div className="overflow-hidden rounded-full bg-zinc-700">
                 <div
                   className={clsx(
-                    'h-2 animate-[translateXReset_1s_ease-in-out_1_reverse] rounded-full bg-vercel-blue'
+                    'h-2 animate-[translateXReset_1s_ease-in-out_1_reverse] rounded-full bg-vercel-blue',
                   )}
                   style={{
                     transform: `translateX(-${100 - clientDeltaAsPercent}%)`,

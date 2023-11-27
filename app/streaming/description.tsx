@@ -6,7 +6,7 @@ async function delay(ms: number): Promise<string> {
   await new Promise((res) =>
     setTimeout(() => {
       res(msg)
-    }, ms)
+    }, ms),
   )
   return msg
 }
