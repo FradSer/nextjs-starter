@@ -12,7 +12,7 @@ const HooksServer = () => {
             usePreviewData: previewData(),
           },
           null,
-          2
+          2,
         )}
       </pre>
     </div>

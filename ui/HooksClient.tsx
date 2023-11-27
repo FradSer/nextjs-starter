@@ -32,7 +32,7 @@ const HooksClient = () => {
             },
           },
           null,
-          2
+          2,
         )}
       </pre>
     </div>

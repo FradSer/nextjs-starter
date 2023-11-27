@@ -5,7 +5,7 @@ import { use } from 'react'
 
 export default function Page({ params }: PageProps) {
   const category = use(
-    fetchSubCategory(params.categorySlug, params.subCategorySlug)
+    fetchSubCategory(params.categorySlug, params.subCategorySlug),
   )
   if (!category) return null
 
