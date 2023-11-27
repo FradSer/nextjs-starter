@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/FradSer/nextjs-starter/compare/v0.2.1...v0.3.0) (2023-11-27)
+
+
+### Features
+
+* **git:** update git ignore and remove files ([d06c301](https://github.com/FradSer/nextjs-starter/commit/d06c301fea2dc987f6009f862ff932cc54447c27))
+
 ### [0.2.1](https://github.com/FradSer/nextjs-starter/compare/v0.2.0...v0.2.1) (2023-04-18)
 
 ### Features
