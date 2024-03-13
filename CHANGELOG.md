@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.4.0](https://github.com/FradSer/nextjs-starter/compare/v0.3.0...v0.4.0) (2024-3-13)
+
 ## [0.3.0](https://github.com/FradSer/nextjs-starter/compare/v0.2.1...v0.3.0) (2023-11-27)
 
 ### Features
